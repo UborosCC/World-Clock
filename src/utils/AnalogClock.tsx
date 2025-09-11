@@ -19,7 +19,7 @@ export default function AnalogClock(props: AnalogClockProps) {
   return <>
     <div className="analogclock-container-outer">
       <div className="analogclock-container">
-        <canvas ref={canvasRef} width="500" height="500"></canvas>
+        <canvas className='analog-clock' ref={canvasRef} width="500" height="500"></canvas>
       </div>
     </div>
   </>;

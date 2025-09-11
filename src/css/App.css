@@ -1,8 +1,8 @@
-
 @import "Home.css";
 @import "AddTimezone.css";
+ 
 :root {
-    --main-color: #136A06;
+    --main-color: rgba(19, 106, 6, 0.8);
     --background-color: rgba(0,0,0,0.8) ;
     --border: var(--main-color) 5px solid;
 }
@@ -15,7 +15,7 @@
 
 .navbar {
     background-color: var(--background-color);
-    border-bottom: solid var(--main-color) 5px;
+    border-bottom: var(--border);
     padding: 20px;
 }
 
@@ -36,10 +36,157 @@ h1 {
     font-size: 40px;
     width: 500px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 20px;
     background-color: var(--background-color);
     color: white;
     border: var(--border);
     border-radius: 10px;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    :root {
+        --border: var(--main-color) 4.5px solid;
+    }
+
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar-link {
+        display: block;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        width: 250px;
+        margin-top: 15px;
+    }
+
+    .select-timezones {
+        margin: 10px 5px;
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .analog-clock {
+        width: 200px;
+        height: 200px;
+    }
+
+    .clock-container {
+        width: 300px;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    .clock-change-button {
+        left: 1.5%;
+    }
+
+    .timezone-form {
+        margin: 10px 0;
+        padding: 25px;
+    }
+
+    .timezone-input {
+        width: 280px;
+    }
+    
+    .timezone-form-header {
+        font-size: 16px;
+    }
+
+    .timezone-save {
+        margin-top: 25px;
+        padding: 10px 25px;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 820px) {
+    
+    .navbar-link {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        width: 450px;
+    }
+
+    .select-timezones {
+        margin: 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .analog-clock {
+        width: 300px;
+        height: 300px;
+    }
+
+    .clock-container {
+        width: 600px;
+        height: 230px;
+        font-size: 20px;
+    }
+
+    .clock-change-button {
+        left: 1.5%;
+    }
+
+    .timezone-form {
+        margin: 50px 0;
+    }
+}
+
+/* Smaller Screens (such as Laptops) */
+@media screen and (min-width: 821px) and (max-width: 1624px) {
+   
+    .navbar-link {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        width: 450px;
+    }
+
+    .select-timezones {
+        margin: 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .analog-clock {
+        width: 300px;
+        height: 300px;
+    }
+
+    .clock-container {
+        width: 600px;
+        height: 230px;
+        font-size: 20px;
+    }
+
+    .clock-change-button {
+        left: 1.5%;
+    }
+
+    .timezone-form {
+        margin: 25px 350px;
+        padding: 20px;
+    }
+
+    .timezone-form-header {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .timezone-save {
+        margin-top: 25px;
+    }
 }

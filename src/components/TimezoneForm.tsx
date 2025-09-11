@@ -60,7 +60,7 @@ export default function TimezoneForm() {
             <input 
             className="timezone-input"
             type="text"
-            placeholder="Timezone (for example: Europe/Stockholm)"
+            placeholder="Timezone (for example: Continent/City)"
             value={timezone}
             onChange={(e) => setTimezone(e.target.value)}
             required

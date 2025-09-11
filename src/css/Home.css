@@ -1,6 +1,6 @@
 .select-timezones {
     cursor: pointer;
-    margin: 20px;
+    margin: 15px 20px;
     background-color: var(--background-color);
     padding: 20px 30px;
     border: var(--border);
