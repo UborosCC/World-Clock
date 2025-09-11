@@ -1,0 +1,52 @@
+.select-timezones {
+    cursor: pointer;
+    margin: 20px;
+    background-color: var(--background-color);
+    padding: 20px 30px;
+    border: var(--border);
+    border-radius: 10px;
+    color: white;
+}
+
+.options-timezones {
+    cursor: pointer;
+    border: var(--border);
+    color: var(--main-color);
+}
+
+
+.clock-container {
+    background-color: var(--background-color);
+    display: flex;
+    width: 750px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: var(--border);
+    border-radius: 10px;
+    color: white;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+.clock-props {
+    margin: 30px;
+}
+
+.clock-change-button {
+    position: fixed;
+    left: 1%;
+    bottom: 5%;
+    background-color: var(--background-color);
+    border: var(--border);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.clock-change-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
