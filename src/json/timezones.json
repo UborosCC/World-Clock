@@ -4,5 +4,125 @@
         "country": "Sweden",
         "timezone": "Europe/Stockholm",
         "background": "/images/stockholm.jpg"
+    },
+    {
+        "city": "New York",
+        "country": "USA",
+        "timezone": "America/New_York",
+        "background": "/images/newyork.jpg"
+    },
+    {
+        "city": "Los Angeles",
+        "country": "USA",
+        "timezone": "America/Los_Angeles",
+        "background": "/images/losangeles.jpg"
+    },
+    {
+        "city": "Chicago",
+        "country": "USA",
+        "timezone": "America/Chicago",
+        "background": "/images/chicago.jpg"
+    },
+    {
+        "city": "Toronto",
+        "country": "Canada",
+        "timezone": "America/Toronto",
+        "background": "/images/toronto.jpg"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "timezone": "Europe/London",
+        "background": "/images/london.jpg"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "timezone": "Europe/Paris",
+        "background": "/images/paris.jpg"
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "timezone": "Europe/Berlin",
+        "background": "/images/berlin.jpg"
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "timezone": "Europe/Madrid",
+        "background": "/images/madrid.jpg"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "timezone": "Europe/Rome",
+        "background": "/images/rome.jpg"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "timezone": "Europe/Moscow",
+        "background": "/images/moscow.jpg"
+    },
+    {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "timezone": "Asia/Dubai",
+        "background": "/images/dubai.jpg"
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "timezone": "Asia/Kolkata",
+        "background": "/images/mumbai.jpg"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "timezone": "Asia/Shanghai",
+        "background": "/images/beijing.jpg"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "timezone": "Asia/Tokyo",
+        "background": "/images/tokyo.jpg"
+    },
+    {
+        "city": "Seoul",
+        "country": "South Korea",
+        "timezone": "Asia/Seoul",
+        "background": "/images/seoul.jpg"
+    },
+    {
+        "city": "Singapore",
+        "country": "Singapore",
+        "timezone": "Asia/Singapore",
+        "background": "/images/singapore.jpg"
+    },
+    {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "timezone": "Asia/Bangkok",
+        "background": "/images/bangkok.jpg"
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "timezone": "Australia/Sydney",
+        "background": "/images/sydney.jpg"
+    },
+    {
+        "city": "Melbourne",
+        "country": "Australia",
+        "timezone": "Australia/Melbourne",
+        "background": "/images/melbourne.jpg"
+    },
+    {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "timezone": "America/Sao_Paulo",
+        "background": "/images/saopaulo.jpg"
     }
 ]

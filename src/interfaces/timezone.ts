@@ -1,3 +1,4 @@
+// Timezone interface
 export interface Timezone {
     city: string;
     country: string;
