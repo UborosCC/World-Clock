@@ -92,6 +92,12 @@ När jag kör npm run dev, använder Vite och TypeScript-plugin esbuild för att
 - Kontrollera typer
 - Transpilera koden till ren JavaScript som webbläsaren kan förstå.
 - Slutresultatet blir optimerad JavaScript i dist-mappen som fungerar i moderna webbläsare
+ 
+## Hur gick tillväga när du använde Git, samt när du testade att programmet faktiskt fungerar som det ska.
+
+Jag är ganska bekvämt med att använda Git eftersom vi har använt det hos tidigare kurs. Men jag är fortfarande dålig på att göra commits ofta, eftersom jag är van vid att bara köra ctrl + s för att spara allt på vscode tills allt är färdigt och sedan commit det till Github. 
+
+Testningen gick bra för mig, jag gjorde det genom webbläsaren via npm run dev, allt funkade som det skulle och när en bug uppstod fick jag en tydlig felmeddelande från vscode som visade mig vart felet var. Men att lösa felet var en annan sak, ibland visste jag vad felet va, det kunde ha varit en stavfel. I andra fall när min kod blir rörig och jag kan inte själv lösa felet, då fick jag googla upp om hjälp eller försöka be AI att kolla igenom min kod och identifiera vad jag har gjort för fel.
 
 ## Loggbok
 
