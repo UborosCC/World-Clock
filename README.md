@@ -38,7 +38,7 @@ components/
 css/
 
 - AddTimezone.css, CSS för formulärsidan
-- App.css, Global CSS och media queries för mobil, surfplatta och desktop
+- App.css, Global CSS och media queries för mobil, surfplatta och laptop
 - Home.css, CSS för startsidan
 
 hooks/
@@ -77,13 +77,13 @@ Motivering:
 ## Förklara minst 3 ställen där TypeScript ger fördelar jämfört med Javascriåt i din kod
 
 1. Typsäkerhet. 
-Som hos min Clock komponent använder den sig av Clockprops där det måste innehålla city, country och timezone. Typescript ser till att dessa alltid finns och är av rätt typ.
+I Clock.tsx använder jag ClockProps som kräver city, country och timezone. TypeScript säkerställer att dessa alltid skickas in med rätt typ.
 
 2. Autokomplettering i editor. 
-När jag använder till exempel timezones.map, får jag direkt förslag på .city, .country, .timezone. Vilket minsar risken för stavfel.
+När jag använder timezones.map() får jag direkt autokomplettering för .city, .country och .timezone, vilket minskar risken för stavfel.
 
 3. Tidigare felupptäck
-Om jag skulle försöka skicka felatkigt prop till Clock eller fel typ till useState, får jag fel redan av utvecklingfasen istället för att få en runtime-buggar 
+Om jag skickar fel typ eller glömmer en prop till Clock får jag fel redan vid utveckling, istället för att appen kraschar vid körning.
 
 ## Besktriv hur TypeScript transpileras till JavaScript i ditt projekt
 
