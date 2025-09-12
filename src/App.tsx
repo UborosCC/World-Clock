@@ -10,8 +10,8 @@ export default function App() {
     <Navbar />
 
     <Routes>
-      <Route path='./' element={<Home />} />
-      <Route path='./AddTimezone' element={<AddTimezone />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/AddTimezone' element={<AddTimezone />} />
     </Routes>
     </>
   )
