@@ -92,3 +92,29 @@ När jag kör npm run dev, använder Vite och TypeScript-plugin esbuild för att
 - Kontrollera typer
 - Transpilera koden till ren JavaScript som webbläsaren kan förstå.
 - Slutresultatet blir optimerad JavaScript i dist-mappen som fungerar i moderna webbläsare
+
+## Loggbok
+
+### 2025-08-29
+
+Började med att planera om individuella uppgiften. Skapade en To do list samt User Stories och en enkel skiss på hur hemsidan ska se ut. 
+
+### 2025-09-01 till 2025-09-05
+
+Jobbade med gruppuppgift, påbörjade med att skapa map och filstruktur.
+
+### 2025-09-08
+
+Skapade filer för en basic startsida.
+
+### 2025-09-10
+
+Testade gruppuppgift för grupp 3, började skapa components och hooks.
+
+### 2025-09-11
+
+Fixade CSS samt la till Analog Klockan från react-rapide och justera det till mitt projekt. Fixade responsive media screens för mobil, surfplattor och laptops
+
+### 2025-09-12
+
+La till min dokumentantion från Google Docs och Notes till min README, fixade de till Markdown style. Försökte göra Github Page, hittade ingen lösning till problemet och stängde ner den.
