@@ -1,12 +1,20 @@
+import type { RouteObject } from 'react-router-dom';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import routes from './routes';
 import App from './App.tsx';
 
-createRoot(document.getElementById('root')!).render(
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: routes as RouteObject[]
+  }
+]);
+
+createRoot(document.querySelector('#root')!).render(
   <StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </StrictMode>,
-)
+    <RouterProvider router={router} />
+  </StrictMode>
+);

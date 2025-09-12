@@ -6,6 +6,12 @@ import Clock from "../components/Clock"; // Digital clock component
 import AnalogClock from "../utils/AnalogClock"; // Analog clock component (canvas-based)
 import type { AnalogClockSettings } from "../interfaces/AnalogClock"; // Analog clock interface
 
+Home.route = {
+    path: '/',
+    menuLabel: 'Home',
+    index: 1
+}
+
 export default function Home() {
   // useTimezones gives us:
   // timezones: all available timezones (from JSON + localStorage)

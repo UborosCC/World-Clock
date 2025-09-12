@@ -11,7 +11,7 @@ export default function App() {
 
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/add-timezone' element={<AddTimezone />} />
+      <Route path='/AddTimezone' element={<AddTimezone />} />
     </Routes>
     </>
   )

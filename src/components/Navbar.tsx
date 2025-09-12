@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="navbar">
             {/* Navbar links */}
             <Link to="/" className="navbar-link">Home</Link>
-            <Link to="/add-timezone" className="navbar-link">Add your own timezone</Link>
+            <Link to="/AddTimezone" className="navbar-link">Add your own timezone</Link>
         </nav>
     )
 }
