@@ -1,5 +1,7 @@
 # Dokumentation av arbetsprocessen
 
+(Jag försökte fixa till Github Pages igen, men kan fortfarande inte få den att funka - 2025.09.18)
+
 ## Hur tänkte du när du skissade gränssnitt?
 
 Länk till Figma skiss: https://www.figma.com/design/rgieUrUCacJZdZCnb8ejlq/World-Clock?node-id=0-1&t=j9GrBxa9UFhOkVSa-1
