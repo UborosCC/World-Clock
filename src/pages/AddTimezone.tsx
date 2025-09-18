@@ -3,13 +3,6 @@ import TimezoneForm from "../components/TimezoneForm";
 import { useBackground } from "../hooks/useBackground";
 import { useTimezones } from "../hooks/useTimezones";
 
-AddTimezone.route = {
-    path: '/AddTimezone',
-    menuLabel: 'AddTimezone',
-    index: 2,
-    parent: '/'
-}
-
 export default function AddTimezone() {
     // useTimezone for taking:
     // timezones: all available timezones (from JSON + localStorage)
